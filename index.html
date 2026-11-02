@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css  assets/myfirststyles.css">
+    <script src="js/script.js" defer></script>
+    <title>Sipesihle Tutaring Academy | Home</title>
+    <meta name="description" content="Sipesihle Tutoring Academy provides quality academic support to High School and University students. We offer tutoring in STEM, Accounting and Economics to help students improve their understanding, confidence and academic performance.">
+    <meta name="keywords" content="Sipesihle Tutoring Academy, High School Tutoring, University Tutoring, STEM, Accounting, Economics, Academic Support, Online Tutoring, In-Person Tutoring">
+    <meta name="author" content="Sipesihle Tutoring Academy">
+</head>
+<body>
+    <header>
+        <img src="-images/logo.png" alt="Sipesihle Tutaring Academy Logo" class="responsive-image"> 
+
+        <nav class="navbar">
+           <button class="menu-button" id="menu-button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="menu">
+              Menu
+            </button>
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+            </ul>
+        </nav>
+    </header>
+     
+    
+  <main>
+   
+    <section>
+        <h1>Welcome to Sipesihle Tutoring Academy</h1>
+        <p>Empowering Students through Knowledge,Innovation and Excellence.</p>  
+    </section>
+     <!--Dynamic Welcome Message-->
+     <section class="welcome-section">
+        <h2 id="dynamicWelcome"></h2>
+        <p id="currentDate"></p>
+     </section>
+    <section>
+        <h2>About Our Academy</h2>
+        <p>Sipesihle Tutoring Academy is dedicated to helping high school and university students achieve academic success.
+            We offer personalized tutoring in STEM, Economics, and Accounting through experienced tutors who are passionate about education and student development.</p>
+        </p>
+    </section>
+    <section>
+        <h2>Subjects We Offer</h2>
+        <div class="container">
+
+         <div>
+         <h3> High School</h3>
+         <ul>
+            <li>Mathematics</li>
+            <li>Physical Sciences</li>
+            <li>Accounting</li>
+            <li>Life Sciences</li>
+            <li>Economics</li>
+         </ul>
+         </div>
+        <div>
+        <h3>University</h3>
+        <ul>
+            <li>Accounting</li>
+            <li>Economics</li>
+            <li>Statistics</li>
+            <li>Computer Science</li>
+            <li>Engineering</li>
+            <li>Mathematics</li>
+        </ul>
+        </div>
+        <div>   
+           <img src="-images/Economics.jpg" alt="Economics Subject" class="responsive-images" onclick="showImage(this)">
+        </div>
+        </div>
+    </section>
+    <section>
+        <h2>Programmes Offered</h2>
+        <table border="1">
+            <tr>
+                <th colspan="2">Sipesihle  Tutoring Academy Programmes</th>
+            </tr>
+            <tr>
+                <th>Level1</th>
+                <th>Subjects</th>
+            </tr>   
+            <tr>
+                <td>High School</td>
+                <td>STEM, Economics, Accounting</td>
+            </tr>
+            <tr>
+                <td>University</td>
+                <td>Accounting, Economics, Statistics, Computer Science, Engineering, Mathematics</td>
+            </tr>   
+            
+        </table>
+    
+    </section>
+      <section>
+        <h2>Why Choose Sipesihle Tutoring Academy</h2>
+        <ul>
+            <li>Experienced Tutors</li>
+            <li>Personalized Learning Plans</li>
+            <li>Exam Preparation</li>
+            <li>Proven Track Record of Success</li>
+            <li>Supportive Learning Environment</li>
+            <li>Affordable Fees</li>
+            <li>Online and In-Person Options</li>
+        </ul>
+      </section>
+    
+    </main>
+    <div id="imageViewer" class="image-viewer" onclick="closeImage()">
+        <span class="close-button" onclick="closeImage()">&times;</span>
+        <img id="enlargedImage" src="" alt="Enlarged Image">
+    </div>
+</body> 
+     <footer>
+        <p>&copy; 2026 Sipesihle Tutoring Academy. All rights reserved.</p>
+    </footer>   
+</html>
